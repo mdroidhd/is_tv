@@ -1,6 +1,6 @@
 name: is_tv
 description: Flutter plugin to check if current device is a Television.
-version: 0.0.1
+version: 0.0.1+1
 
 repository: https://github.com/imrhk/is_tv
 issue_tracker: https://github.com/imrhk/is_tv/issues
@@ -30,8 +30,12 @@ flutter:
         pluginClass: IsTVPlugin
       ios:
         pluginClass: IsTVPlugin
+      linux: 
+        pluginClass: IsTVPlugin
       macos:
         pluginClass: IsTVPlugin
+      windows:
+        pluginClass: IsTVPluginCApi
       web:
         pluginClass: IsTVWeb
         fileName: is_tv_web.dart
