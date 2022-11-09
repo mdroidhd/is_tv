@@ -65,3 +65,7 @@ void is_tv_plugin_register_with_registrar(FlPluginRegistrar* registrar) {
 
   g_object_unref(plugin);
 }
+
+void is_t_v_plugin_register_with_registrar(FlPluginRegistrar* registrar) {
+  is_tv_plugin_register_with_registrar(registrar);
+}

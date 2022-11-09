@@ -21,6 +21,9 @@ FLUTTER_PLUGIN_EXPORT GType is_tv_plugin_get_type();
 FLUTTER_PLUGIN_EXPORT void is_tv_plugin_register_with_registrar(
     FlPluginRegistrar* registrar);
 
+FLUTTER_PLUGIN_EXPORT void is_t_v_plugin_register_with_registrar(
+    FlPluginRegistrar* registrar);
+
 G_END_DECLS
 
 #endif  // FLUTTER_PLUGIN_IS_TV_PLUGIN_H_
