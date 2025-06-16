@@ -4,7 +4,7 @@
 
 #include "is_tv_plugin.h"
 
-void IsTVPluginCApiRegisterWithRegistrar(
+void IsTvPluginCApiRegisterWithRegistrar(
     FlutterDesktopPluginRegistrarRef registrar) {
   is_tv::IsTvPlugin::RegisterWithRegistrar(
       flutter::PluginRegistrarManager::GetInstance()

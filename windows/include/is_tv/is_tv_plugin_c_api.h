@@ -13,7 +13,7 @@
 extern "C" {
 #endif
 
-FLUTTER_PLUGIN_EXPORT void IsTVPluginCApiRegisterWithRegistrar(
+FLUTTER_PLUGIN_EXPORT void IsTvPluginCApiRegisterWithRegistrar(
     FlutterDesktopPluginRegistrarRef registrar);
 
 #if defined(__cplusplus)

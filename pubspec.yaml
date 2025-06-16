@@ -34,7 +34,7 @@ flutter:
       macos:
         pluginClass: IsTVPlugin
       windows:
-        pluginClass: IsTVPluginCApi
+        pluginClass: IsTvPluginCApi
       web:
         pluginClass: IsTVWeb
         fileName: is_tv_web.dart
