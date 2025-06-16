@@ -6,7 +6,7 @@
 
 #include "generated_plugin_registrant.h"
 
-#include <is_tv/is_t_v_plugin_c_api.h>
+#include <is_tv/is_tv_plugin_c_ap.h>
 
 void RegisterPlugins(flutter::PluginRegistry* registry) {
   IsTVPluginCApiRegisterWithRegistrar(
